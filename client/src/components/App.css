@@ -1,0 +1,8 @@
+.image-list {
+    margin-top: 25px;
+}
+
+.fields {
+    max-height: 250px;
+    overflow-x: scroll;
+  }

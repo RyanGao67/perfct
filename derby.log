@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sun Jun 23 21:09:38 EDT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-016b-8708-0409-00000e077cc8 
+on database directory /home/ryangao67/fullstack20190623/perfct/metastore_db2 with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@7818c3b6 
+Loaded from file:/home/ryangao67/Downloads/spark-2.4.3-bin-hadoop2.7/jars/derby-10.12.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_212-8u212-b03-0ubuntu1.18.04.1-b03
+user.dir=/home/ryangao67/fullstack20190623/perfct
+os.name=Linux
+os.arch=amd64
+os.version=4.15.0-52-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
