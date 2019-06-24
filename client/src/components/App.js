@@ -24,7 +24,9 @@ class App extends React.Component{
     }
     render(){
         return(
+            
             <div>
+                {/* form */}
                 <div className="ui text container image-list">
                     <div className = "ui segments">
                         <button className="positive ui button">Given Infomation</button>
@@ -41,7 +43,7 @@ class App extends React.Component{
                     </div>
                 </div>
 
-
+                {/* fields */}
                 <div className="ui text container image-list">
                     <div className="ui segments">
                         <div className="ui segment">
@@ -69,8 +71,18 @@ class App extends React.Component{
                     </div>
                 </div>
 
-
-            </div>
+                {/* query */}
+                <form onSubmit={this.onFormSubmit} className="ui form">
+                <div className="field">
+                    <label>Image Search</label>
+                    <input
+                    type="text"
+                    value={this.state.term}
+                    onChange={e => this.setState({ term: e.target.value })}
+                    />
+                </div>
+                </form>
+                </div>
         )
     }
 }
